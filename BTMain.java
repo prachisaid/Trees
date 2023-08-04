@@ -7,6 +7,7 @@ public class BTMain {
         Scanner sc = new Scanner(System.in);
         BinaryTree bt = new BinaryTree();
         bt.insert(sc);
-        bt.prettyDisplay();
+//        bt.prettyDisplay();
+        bt.preInPostTraversal();
     }
 }
