@@ -4,10 +4,10 @@ import java.util.*;
 
 public class BinarySearchTree {
     public static class Node{
-        private int value;
-        private Node left;
-        private Node right;
-        private int height;
+        int value;
+        Node left;
+        Node right;
+        int height;
 
         public Node(int value){
             this.value = value;
@@ -31,7 +31,7 @@ public class BinarySearchTree {
         }
     }
 
-    private Node root;
+    Node root;
 
     public BinarySearchTree(){}
 
