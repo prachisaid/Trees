@@ -2,7 +2,8 @@ package Trees;
 
 public class BSTMain {
     public static void main(String[] args) {
-        BoundaryTraversal bst = new BoundaryTraversal();
+//        BoundaryTraversal bst = new BoundaryTraversal();
+        VerticalTraversal bst = new VerticalTraversal();
 //        bst.insert(15);
         bst.insert(10);
         bst.insert(2);
@@ -19,8 +20,9 @@ public class BSTMain {
 //        System.out.println(bst.balance());
 //        bst.inorder();
 //        bst.preInPostTraversal();
-        System.out.println(bst.traverseBoundary(bst.root));
+//        System.out.println(bst.traverseBoundary(bst.root));
 //        bst.zigzagLevelOrder(bst.root);
+        bst.vertical(bst.root);
     }
 
 }
