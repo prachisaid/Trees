@@ -3,7 +3,12 @@ package Trees;
 public class BSTMain {
     public static void main(String[] args) {
 //        BoundaryTraversal bst = new BoundaryTraversal();
-        VerticalTraversal bst = new VerticalTraversal();
+//        VerticalTraversal bst = new VerticalTraversal();
+//        TopView bst = new TopView();
+//        BottomView bst = new BottomView();
+//        RightView bst = new RightView();
+//        LowestCommonAncestorII bst = new LowestCommonAncestorII();
+        MaximumWidth bst = new MaximumWidth();
 //        bst.insert(15);
         bst.insert(10);
         bst.insert(2);
@@ -22,7 +27,9 @@ public class BSTMain {
 //        bst.preInPostTraversal();
 //        System.out.println(bst.traverseBoundary(bst.root));
 //        bst.zigzagLevelOrder(bst.root);
-        bst.vertical(bst.root);
+//        bst.vertical(bst.root);
+//        System.out.println(bst.lowestCommonAncestor(bst.root, bst.root.left, bst.root.right).value);
+        System.out.println(bst.widthOfBinaryTree(bst.root));
     }
 
 }
