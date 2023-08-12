@@ -8,7 +8,9 @@ public class BSTMain {
 //        BottomView bst = new BottomView();
 //        RightView bst = new RightView();
 //        LowestCommonAncestorII bst = new LowestCommonAncestorII();
-        MaximumWidth bst = new MaximumWidth();
+//        MaximumWidth bst = new MaximumWidth();
+//        NodeDistanceK bst = new NodeDistanceK();
+        MaximumTimeToBurnTree bst = new MaximumTimeToBurnTree();
 //        bst.insert(15);
         bst.insert(10);
         bst.insert(2);
@@ -29,7 +31,7 @@ public class BSTMain {
 //        bst.zigzagLevelOrder(bst.root);
 //        bst.vertical(bst.root);
 //        System.out.println(bst.lowestCommonAncestor(bst.root, bst.root.left, bst.root.right).value);
-        System.out.println(bst.widthOfBinaryTree(bst.root));
+        System.out.println(bst.minTime(bst.root, 2));
     }
 
 }
