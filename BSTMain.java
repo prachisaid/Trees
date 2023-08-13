@@ -10,15 +10,16 @@ public class BSTMain {
 //        LowestCommonAncestorII bst = new LowestCommonAncestorII();
 //        MaximumWidth bst = new MaximumWidth();
 //        NodeDistanceK bst = new NodeDistanceK();
-        MaximumTimeToBurnTree bst = new MaximumTimeToBurnTree();
+//        MaximumTimeToBurnTree bst = new MaximumTimeToBurnTree();
+        ConstructTree bst = new ConstructTree();
 //        bst.insert(15);
-        bst.insert(10);
-        bst.insert(2);
-        bst.insert(30);
-        bst.insert(1);
-        bst.insert(5);
-        bst.insert(17);
-        bst.insert(60);
+//        bst.insert(10);
+//        bst.insert(2);
+//        bst.insert(30);
+//        bst.insert(1);
+//        bst.insert(5);
+//        bst.insert(17);
+//        bst.insert(60);
 //        bst.insert(16);
 //        int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 //        bst.populateSorted(nums);
@@ -31,7 +32,10 @@ public class BSTMain {
 //        bst.zigzagLevelOrder(bst.root);
 //        bst.vertical(bst.root);
 //        System.out.println(bst.lowestCommonAncestor(bst.root, bst.root.left, bst.root.right).value);
-        System.out.println(bst.minTime(bst.root, 2));
+//        System.out.println(bst.countNodes(bst.root));
+        int[] preorder = {3, 9, 20, 15, 7};
+        int[] inorder = {9, 3, 15, 20, 7};
+        System.out.println(bst.buildTree(preorder, inorder).val);
     }
 
 }
