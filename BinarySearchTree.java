@@ -4,9 +4,9 @@ import java.util.*;
 
 public class BinarySearchTree {
     public static class Node{
-        int value;
-        Node left;
-        Node right;
+        public int value;
+        public Node left;
+        public Node right;
         int height;
 
         public Node(int value){

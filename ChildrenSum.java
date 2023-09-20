@@ -19,7 +19,7 @@ public class ChildrenSum extends BinarySearchTree{
         }
         else{
             if(root.left != null) root.left.value = root.value;
-            else if(root.right != null) root.right.value = root.value;
+            if(root.right != null) root.right.value = root.value;
         }
 
         changeTree(root.left);

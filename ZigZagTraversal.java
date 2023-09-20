@@ -25,6 +25,7 @@ public class ZigZagTraversal extends BinarySearchTree{
                     queue.add(n.left);
                 }
                 if(n.right != null){
+
                     queue.add(n.right);
                 }
             }
