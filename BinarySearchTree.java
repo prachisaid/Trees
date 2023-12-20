@@ -31,7 +31,7 @@ public class BinarySearchTree {
         }
     }
 
-    Node root;
+    public Node root;
 
     public BinarySearchTree(){}
 
